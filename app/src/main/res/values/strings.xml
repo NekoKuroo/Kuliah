@@ -9,4 +9,11 @@
     <string name="menu_help">Help</string>
     <string name="menu_setting">Setting</string>
     <string name="splash_screen">Solusi untuk menghitung pengeluaran</string>
+    <string name="bantuan">Halo, Dimas !
+        Ada yang bisa dibantu ?</string>
+    <string name="Topik">Topik yang paling dicari</string>
+    <string name="bagaimana1">Bagaimana cara input pemasukan ?</string>
+    <string name="bagaimana2">Bagaimana cara input pengeluaran ?</string>
+    <string name="bagaimana3">Bagaimana cara mengganti poto profil ?</string>
+
 </resources>

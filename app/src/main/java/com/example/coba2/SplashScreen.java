@@ -19,7 +19,7 @@ public class SplashScreen extends AppCompatActivity {
         decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
 
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(SplashScreen.this, MainActivity.class);
+            Intent intent = new Intent(SplashScreen.this, SettingActivity.class);
             startActivity(intent);
             finish();
         }, 2000);

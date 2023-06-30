@@ -130,5 +130,19 @@
         app:layout_constraintVertical_bias="0.678"
         app:srcCompat="@drawable/uang" />
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="71dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/describe"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443"
+        app:srcCompat="@drawable/baseline_notifications_active_24" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

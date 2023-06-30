@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArtikelActivity"
+    android:background="@color/teal_200">
+
+    <!-- Konten utama tampilan (action menu) -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="407dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        app:menu="@menu/action_menu" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="410dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ARTIKEL"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_big"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toEndOf="@+id/imageButton3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.507" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="70dp"
+            android:layout_height="97dp"
+            android:backgroundTint="@color/teal_200"
+
+            android:contentDescription="@string/describe"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_navigate_before_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="413dp"
+        android:layout_height="183dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        app:layout_constraintVertical_bias="0.044">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="377dp"
+            android:layout_height="52dp"
+            android:text="LOREM IPSUM IPSUM DOLAR SIT AMET LOREM IPSUM"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_big"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.809" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="377dp"
+            android:layout_height="52dp"
+            android:text="LOREM IPSUM IPSUM DOLAR SIT AMET LOREM IPSUM"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_big"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.335" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="409dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6"
+        app:layout_constraintVertical_bias="0.11">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="374dp"
+            android:layout_height="59dp"
+            android:textColor="@color/black"
+            android:text="Traditional finish carry data bank. Figure thus who action wind claim source. Media that represent rise share. Reduce development indeed similar."
+            app:layout_constraintBottom_toTopOf="@+id/textView14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="374dp"
+            android:layout_height="53dp"
+            android:textColor="@color/black"
+            android:text="Traditional finish carry data bank. Figure thus who action wind claim source. Media that represent rise share. Reduce development indeed similar."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.784" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout9"
+        android:layout_width="414dp"
+        android:layout_height="171dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout4"
+        app:layout_constraintVertical_bias="0.903">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apakah artikel ini membantu ?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_regular"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.196" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="2dp"
+            android:backgroundTint="@color/teal_200"
+            android:contentDescription="@string/describe"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageButton8"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.116"
+            app:srcCompat="@drawable/baseline_mood_bad_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/teal_200"
+            android:contentDescription="@string/describe"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView17"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.116"
+            app:srcCompat="@drawable/round_mood_24" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hubungi kami di"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_regular"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.477"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.564" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
